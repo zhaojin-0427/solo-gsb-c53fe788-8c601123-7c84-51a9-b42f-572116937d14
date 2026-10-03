@@ -1,0 +1,1 @@
+/tmp/venv/lib/python3.11/site-packages/pgserver/pginstall/bin/postgres "-D" "/workspace/.stress-pgdata" "-h" "" "-k" "/workspace/.stress-pgdata"

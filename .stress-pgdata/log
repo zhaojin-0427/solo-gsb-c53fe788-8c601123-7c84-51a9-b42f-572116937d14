@@ -1,0 +1,33 @@
+2026-10-03 16:04:01.678 UTC [1525] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-03 16:04:01.681 UTC [1525] LOG:  listening on Unix socket "/workspace/.stress-pgdata/.s.PGSQL.5432"
+2026-10-03 16:04:01.690 UTC [1528] LOG:  database system was shut down at 2026-10-03 16:04:00 UTC
+2026-10-03 16:04:01.695 UTC [1525] LOG:  database system is ready to accept connections
+2026-10-03 16:04:21.912 UTC [1525] LOG:  received fast shutdown request
+2026-10-03 16:04:21.915 UTC [1525] LOG:  aborting any active transactions
+2026-10-03 16:04:21.916 UTC [1525] LOG:  background worker "logical replication launcher" (PID 1531) exited with exit code 1
+2026-10-03 16:04:21.917 UTC [1526] LOG:  shutting down
+2026-10-03 16:04:21.919 UTC [1526] LOG:  checkpoint starting: shutdown immediate
+2026-10-03 16:04:21.933 UTC [1526] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.017 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1480430, redo lsn=0/1480430
+2026-10-03 16:04:21.937 UTC [1525] LOG:  database system is shut down
+2026-10-03 16:04:36.449 UTC [1548] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-03 16:04:36.452 UTC [1548] LOG:  listening on Unix socket "/workspace/.stress-pgdata/.s.PGSQL.5432"
+2026-10-03 16:04:36.460 UTC [1551] LOG:  database system was shut down at 2026-10-03 16:04:21 UTC
+2026-10-03 16:04:36.464 UTC [1548] LOG:  database system is ready to accept connections
+2026-10-03 16:04:56.594 UTC [1548] LOG:  received fast shutdown request
+2026-10-03 16:04:56.597 UTC [1548] LOG:  aborting any active transactions
+2026-10-03 16:04:56.598 UTC [1548] LOG:  background worker "logical replication launcher" (PID 1554) exited with exit code 1
+2026-10-03 16:04:56.598 UTC [1549] LOG:  shutting down
+2026-10-03 16:04:56.600 UTC [1549] LOG:  checkpoint starting: shutdown immediate
+2026-10-03 16:04:56.613 UTC [1549] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.002 s, total=0.016 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/14804E0, redo lsn=0/14804E0
+2026-10-03 16:04:56.617 UTC [1548] LOG:  database system is shut down
+2026-10-03 16:06:13.234 UTC [1585] LOG:  starting PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit
+2026-10-03 16:06:13.237 UTC [1585] LOG:  listening on Unix socket "/workspace/.stress-pgdata/.s.PGSQL.5432"
+2026-10-03 16:06:13.246 UTC [1588] LOG:  database system was shut down at 2026-10-03 16:04:56 UTC
+2026-10-03 16:06:13.252 UTC [1585] LOG:  database system is ready to accept connections
+2026-10-03 16:06:17.880 UTC [1585] LOG:  received fast shutdown request
+2026-10-03 16:06:17.882 UTC [1585] LOG:  aborting any active transactions
+2026-10-03 16:06:17.883 UTC [1585] LOG:  background worker "logical replication launcher" (PID 1591) exited with exit code 1
+2026-10-03 16:06:17.883 UTC [1586] LOG:  shutting down
+2026-10-03 16:06:17.885 UTC [1586] LOG:  checkpoint starting: shutdown immediate
+2026-10-03 16:06:18.164 UTC [1586] LOG:  checkpoint complete: wrote 165 buffers (1.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.015 s, sync=0.258 s, total=0.281 s; sync files=115, longest=0.086 s, average=0.003 s; distance=654 kB, estimate=654 kB; lsn=0/1523CF8, redo lsn=0/1523CF8
+2026-10-03 16:06:18.170 UTC [1585] LOG:  database system is shut down
